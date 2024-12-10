@@ -811,7 +811,7 @@ body.nav-active { overflow: hidden; }
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    width: 55%;
+    width: 55%; 
     z-index: -1;
   }
 
@@ -990,4 +990,10 @@ body.nav-active { overflow: hidden; }
 
   .hero .section-text { margin-block-end: 52px; }
 
+}
+
+@media (max-width:760px){
+  .hero-banner{
+    height: 50vh;
+  }
 }
